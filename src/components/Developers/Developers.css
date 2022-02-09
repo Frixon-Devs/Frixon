@@ -1,0 +1,141 @@
+.developers {
+    min-height: 100vh;
+    background: #0B0C18;
+}
+
+.developers .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 1rem;
+	background: #0B0C18;
+}
+
+.developers .content .title {
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.developers .content .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.developers .content .cards .card {
+    width: 400px;
+    height: 230px;
+    background: rgba(66, 64, 80, 0.15);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+	cursor: pointer;
+}
+
+.developers .content .cards .card .profile {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	gap: 1.5rem;
+	box-shadow: border-box;
+}
+
+.developers .content .cards .card img {
+    box-sizing: content-box;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 3px solid #3EDBFE;
+}
+
+.developers .content .cards .card h3 {
+    color: #fff;
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+.developers .content .cards .card .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 1.3rem;
+}
+
+.developers .content .cards .card .icons a {
+    color: #fff;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.developers .content .cards .card .icons a:hover {
+    color: #3EDBFE;
+}
+
+.developers .content .cards .card .btn {
+    padding: 10px 10px;
+    color: #fff;
+    transition: all 0.5s ease;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.developers .content .cards .card .btn:hover {
+    color: #0B0C18;
+    background: #3EDBFE;
+}
+
+
+.developers .content .cards .card .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.developers .content .cards .card .info .info-base {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 20px;
+}
+
+.developers .content .cards .card .info .info-base span:nth-child(1) {
+    color: #3EDBFE;
+    font-weight: 600;
+}
+
+.developers .content .cards .card .info .info-base span:nth-child(2) {
+    color: #fff;
+}
+
+.developers .content .cards .card .info .skill .skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.developers .content .cards .card .info .skill .skills img {
+    border-radius: 0;
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+

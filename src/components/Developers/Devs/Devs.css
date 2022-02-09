@@ -1,0 +1,251 @@
+@font-face {
+  font-family: Quantum;
+  src: url(Quantum.otf);
+}
+
+.developer {
+    min-height: 100vh;
+    background: #0B0C18;
+}
+
+.developer {
+	font-family: Quantum;
+}
+
+.developer .content {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+	flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+	gap: 10rem;
+	background: #0B0C18;
+}
+
+.developer .content .top {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+	flex-wrap: wrap;
+    width: 100%;    
+}
+
+.developer .content .profile {
+    margin-top: 10rem;
+    margin-left: 2rem;
+}
+
+.developer .content .profile {
+    display: flex;
+    justify-content: left;
+	flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+
+.developer .content .profile img {
+    width: 200px;
+    height: 200px;
+	border-radius: 50%;
+}
+
+.developer .content .profile .details {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+	flex-wrap: wrap;
+    height: 200px;
+    gap: 1.5rem;
+}
+
+.developer .content .profile .details h1 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.developer .content .profile .details .icons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+	flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.developer .content .profile .icons a {
+    color: #fff;
+    font-size: 2rem;
+    transition: all .5s ease;
+    border-radius: 50%;
+}
+
+.developer .content .profile .icons a:hover {
+    color: #3EDBFE;
+}
+
+.developer .content .roles {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.developer .content .profile .details .roles .role {
+    padding: 10px 10px;
+    background: #3EDBFE;
+    border-radius: 5px;
+    color: #0B0C18;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.developer .content .languages {
+    margin-top: 10rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+	flex-wrap: wrap;
+    height: 200px;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.developer .content .languages h1 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.developer .content .languages .langs {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+	flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.developer .content .languages .langs img {
+    width: 100px;
+    height: 100px;
+}
+
+.developer .content .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+	width: 100%;
+}
+
+.developer .content .projects h1 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.developer .content .projects h1 span {
+    color: #3EDBFE;
+}
+
+.developer .content .projects .prjs {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 20px 20px;
+}
+
+.developer .content .projects .prjs .project {
+    width: 550px;
+    height: 250px;
+    background: rgba(66, 64, 80, 0.15);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.developer .content .projects .prjs .project .details img {
+    width: 65px;
+    height: 65px;
+}
+
+.developer .content .projects .prjs .project .details h1 {
+    color: #3EDBFE;
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-align: left;
+    padding: 20px;
+}
+
+.developer .content .projects .prjs .project .details p {
+    color: #fff;
+    padding-left: 20px;
+    text-align: left;
+    line-height: 2rem;
+    letter-spacing: 1.5px;
+}
+
+.developer .content .projects .prjs .project .details span {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    flex-direction: row;
+    color: #fff;
+    font-size: 1.5rem;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.developer .content .projects .prjs .project .details span .l {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    gap: .5rem;
+    flex-direction: row;
+}
+
+.developer .content .projects .prjs .project .details img {
+    width: 30px;
+    height: 30px;
+}
+
+.developer .content .projects .prjs .project .link {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+	/* flex-wrap: wrap; */
+}
+
+.developer .content .projects .prjs .project .link ion-icon {
+    font-size: 2rem;
+    padding: 20px;
+    color: #fff;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.developer .content .projects .prjs .project .link ion-icon:hover {
+    color: #3EDBFE;
+}

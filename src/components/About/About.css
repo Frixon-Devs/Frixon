@@ -1,0 +1,49 @@
+.about {
+    min-height: 100vh;
+    background: #0B0C18;
+}
+
+.about .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 1rem;
+}
+
+.about .content .title {
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.about .content .title span {
+    color: #3EDBFE;
+}
+
+.about .content .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5rem;
+}
+
+.about .content .text p {
+    color: #fff;
+    text-align: justify;
+    line-height: 2.5rem;
+    width: 50%;
+    font-size: 1.4rem;
+    letter-spacing: 1.4px;
+}
+
+.about .content .text img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
